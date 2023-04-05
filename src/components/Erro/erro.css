@@ -1,0 +1,25 @@
+.not-found{
+    width: 100%;
+   /* para colocar uma altura de 100% da tela, preciso descontar 
+   o valor ocupado pelo header, que é de 60px. Caso contrário "100vh" 
+   produzierá um scroll na tela.
+   */ 
+   height: calc(100vh - 60px);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.not-found h1{
+    font-size: 120px;
+}
+
+.not-found a{
+    text-decoration: none;
+    background-color: #116feb;
+    color: #fff;
+    padding: 10px;
+    margin-top: 14px;
+}
+
